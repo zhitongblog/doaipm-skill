@@ -95,6 +95,26 @@ These exist so you can experiment boldly above the line:
 - **Don't touch production systems** — prototypes run locally or in test environments only.
 - **When unsure, ask** — compliance, payment, privacy, and tech-stack choices go to a human.
 
+## Operational layer — scaffolds & checklists
+
+The principles above are the *why*. These references are the *how* — and they are **scaffolds for
+what you SAY to the AI, not forms to fill in**. "Speak it, AI builds it" rests on the strength of
+the tool (Claude Code); high fidelity is the PM's way of responding to needs at speed. Reach for
+these when actually building:
+
+- **[references/spec-scaffold.md](references/spec-scaffold.md)** — the one-sentence spec for saying
+  *what you want* clearly (plus JTBD / Opportunity Solution Tree / Working Backwards for discovery).
+- **[references/small-steps.md](references/small-steps.md)** — the Develop rhythm: say one step, run
+  it, give feedback, repeat.
+- **[references/project-constitution.md](references/project-constitution.md)** — say your tech taste,
+  style, constraints, and red lines once; the project remembers them.
+- **[references/high-fidelity-checklist.md](references/high-fidelity-checklist.md)** — **the most
+  important one.** Verify by running the real thing through real content, four states, real
+  interaction, the critical path, cross-device, nasty input — plus an eval loop for AI features.
+
+Don't turn this into heavy process. The scaffolds exist to get to a high-fidelity result *faster*,
+not to slow building down with paperwork.
+
 ---
 
 **Remember:** don't ask "what tool should I use?" — ask "how do I describe this?", then build the
