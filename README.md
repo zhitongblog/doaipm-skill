@@ -42,6 +42,24 @@ One-liner (Claude Code):
 git clone https://github.com/zhitongblog/doaipm-skill ~/.claude/skills/doaipm
 ```
 
+## Try it in 60 seconds
+
+After installing, give your agent a deliberately vague task:
+
+```
+Build me a tip calculator web app.
+```
+
+- **Without doaipm:** it dumps a single static HTML file and calls it done.
+- **With doaipm:** it first asks you 3–5 sharp questions (split the bill? round up? which
+  currency? tax before or after?), *then* builds a real, runnable high-fidelity prototype —
+  real interactions and real states (empty / typing / error / result), verified by actually
+  opening it in a browser — and it never presses an irreversible button (publish / deploy / pay)
+  without you.
+
+That gap — questions before code, high-fidelity over wireframes, the human keeping judgment — is
+the whole method. Watch for it on any task.
+
 ## The proof
 
 This method isn't theory. The [doaipm.com](https://doaipm.com) site and a row of real, shipping
